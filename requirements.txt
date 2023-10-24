@@ -1,0 +1,6 @@
+langchain
+streamlit
+python-dotenv
+cassandra-driver
+openai
+cassio
