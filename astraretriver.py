@@ -47,7 +47,7 @@ class ClientSimilarityTool(BaseTool):
     description = "This tool is used to search for client information like balance, credit score, has a credit card, " \
                   "gender, surname, location, point earned and satisfaction score. " \
                   "Note this does not contains user names or emails." \
-                  "Example query: what is the top 3 client in alabama ranked by credit score?"
+                  "Example query: what is the top 3 client in cambodia ranked by credit score?"
 
     def _run(self, user_question):
         model_id = "text-embedding-ada-002"
